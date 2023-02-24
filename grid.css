@@ -1,0 +1,15 @@
+.grid-container {
+  display: flex;
+}
+
+.grid-gap-8 {
+  gap: 8px;
+}
+
+.grid-gap-4 {
+  gap: 4px;
+}
+
+.item-width-100 {
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+const data = [
+  {
+    id: 0,
+    name: "australia",
+    prefix: "+61",
+    icon: "svg/au.svg",
+  },
+  {
+    id: 1,
+    name: "albania",
+    prefix: "+355",
+    icon: "svg/bh.svg",
+  },
+  {
+    id: 2,
+    name: "canada",
+    prefix: "+1",
+    icon: "svg/ca.svg",
+  },
+  {
+    id: 3,
+    name: "germania",
+    prefix: "+49",
+    icon: "svg/de.svg",
+  },
+  {
+    id: 4,
+    name: "inghilterra",
+    prefix: "+44",
+    icon: "svg/gb.svg",
+  },
+  {
+    id: 5,
+    name: "italia",
+    prefix: "+39",
+    icon: "svg/it.svg",
+  },
+  {
+    id: 6,
+    name: "laos",
+    prefix: "+856",
+    icon: "svg/la.svg",
+  },
+  {
+    id: 7,
+    name: "macedonia",
+    prefix: "+389",
+    icon: "svg/mk.svg",
+  },
+  {
+    id: 8,
+    name: "norvegia",
+    prefix: "+47",
+    icon: "svg/no.svg",
+  },
+  {
+    id: 9,
+    name: "serbia",
+    prefix: "+381",
+    icon: "svg/rs.svg",
+  },
+  {
+    id: 10,
+    name: "syria",
+    prefix: "+963",
+    icon: "svg/sy.svg",
+  },
+  {
+    id: 11,
+    name: "usa",
+    prefix: "+1",
+    icon: "svg/us.svg",
+  },
+  {
+    id: 12,
+    name: "zimbawe",
+    prefix: "+263",
+    icon: "svg/zw.svg",
+  },
+];

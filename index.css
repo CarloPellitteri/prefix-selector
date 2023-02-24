@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 400px;
+  background-color: #dadada;
+  border-radius: 8px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===============================================================
+OTHERS
+=============================================================== */
+
+.dropdown img {
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.flag {
+  height: 16px;
+}
+
+.arrow {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* ===============================================================
+DROPDOWN
+=============================================================== */
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ===============================================================
+DROPDOWN HEAD
+=============================================================== */
+
+.dropdown-head {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.dropdown-flag-container {
+  padding: 20px 16px;
+  background-color: #f6fafd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-flag-container:hover {
+  background-color: #ecf7ff;
+}
+
+.dropdown-text-container {
+  padding: 8px;
+  line-height: 20px;
+}
+
+.dropdown-text-container .text {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+.number input {
+  border: 0px;
+  outline: none;
+  font-size: 16px;
+}
+
+.number input::placeholder {
+  color: #b0b0b0;
+}
+
+/* ===============================================================
+DROPDOWN BODY
+=============================================================== */
+
+.dropdown-body {
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: none;
+}
+
+.dropdown-active .dropdown-body {
+  display: block;
+}
+
+.dropdown-list-container {
+  max-height: 384px;
+  overflow: auto;
+}
+
+/* ===============================================================
+SEARCHING BAR
+=============================================================== */
+
+.searching-bar-icon {
+  padding: 16px;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  fill: #b0b0b0;
+}
+
+.searching-bar-text {
+  padding: 14px;
+}
+
+.searching-bar-text input {
+  border: 0px;
+  outline: none;
+  font-size: 16px;
+}
+
+.searching-bar-text input::placeholder {
+  color: #b0b0b0;
+}
+
+/* ===============================================================
+LIST CONTAINER
+=============================================================== */
+
+.tab {
+  width: 100%;
+}
+
+.tab:hover {
+  background-color: #f6fafd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab-flag {
+  padding: 16px;
+}
+
+.tab-text {
+  padding: 0 14px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.tab-text span {
+  font-size: 14px;
+}
+
+/* ===============================================================
+SIDEBAR
+=============================================================== */
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 4px solid #00000000;
+  background-clip: padding-box;
+  border-radius: 8px;
+  background-color: #aaaaaa;
+}
